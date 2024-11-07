@@ -3,7 +3,7 @@
 ## Overview
 
 This project implements two pathfinding algorithms in Python:
-- **A* Search**: An algorithm that finds the shortest path by considering both the cost to reach a node and the estimated cost to the goal.
+- **A\* Search**: An algorithm that finds the shortest path by considering both the cost to reach a node and the estimated cost to the goal.
 - **Greedy Best-First Search**: An algorithm that explores the most promising nodes based on a heuristic.
 
 ## How to Run the Code
