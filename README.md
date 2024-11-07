@@ -21,6 +21,22 @@ This project implements two pathfinding algorithms in Python:
    python main.py
    ```
 
+## Input
+
+The program uses the following grid as input, where `0` represents open cells and `1` represents obstacles:
+
+```python
+grid = [
+    [0, 0, 1, 0, 0],
+    [0, 1, 0, 1, 0],
+    [0, 0, 0, 0, 1],
+    [0, 1, 1, 0, 0],
+    [0, 0, 0, 1, 0],
+]
+start = (0, 0)
+goal = (4, 4)
+```
+
 ## Approach and Challenges
 
 ### Approach
@@ -39,5 +55,5 @@ This project implements two pathfinding algorithms in Python:
 ### Greedy Best-First Search
 ![Greedy Best-First Search Result](img/greedy_best_first_result.png)
 
-### A* Search
+### A\* Search
 ![A* Search Result](img/a_star_result.png)
