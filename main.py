@@ -135,11 +135,13 @@ if __name__ == "__main__":
     print("Greedy Best-First Search:")
     print(f"Path found: {path_greedy}")
     print(f"Time taken: {time_greedy:.10f} seconds")
+    print(
+        f"Length of path found by Greedy: {len(path_greedy) if path_greedy else 'No path found'}"
+    )
 
     print("\nA* Search:")
     print(f"Path found: {path_a_star}")
     print(f"Time taken: {time_a_star:.10f} seconds")
-
-    print("\nPath Quality Comparison:")
-    print(f"Length of path found by Greedy: {len(path_greedy) if path_greedy else 'No path found'}")
-    print(f"Length of path found by A*: {len(path_a_star) if path_a_star else 'No path found'}")
+    print(
+        f"Length of path found by A*: {len(path_a_star) if path_a_star else 'No path found'}"
+    )
