@@ -116,11 +116,11 @@ def measure_execution_time(func, *args):
 # Test the implementation
 if __name__ == "__main__":
     grid = [
-        [0, 0, 0, 1, 0],
+        [0, 0, 1, 0, 0],
         [0, 1, 0, 1, 0],
+        [0, 0, 0, 0, 1],
+        [0, 1, 1, 0, 0],
         [0, 0, 0, 1, 0],
-        [0, 1, 0, 1, 0],
-        [0, 0, 0, 0, 0],
     ]
     start = (0, 0)
     goal = (4, 4)
